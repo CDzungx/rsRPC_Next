@@ -1,4 +1,3 @@
-use rsrpc;
 use std::path::PathBuf;
 
 #[cfg(feature = "binary")]

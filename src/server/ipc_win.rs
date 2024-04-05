@@ -1,4 +1,4 @@
-use std::ffi::c_void;
+use winapi::ctypes::c_void;
 use std::ptr;
 use std::sync::mpsc;
 use std::sync::{Arc, Mutex};

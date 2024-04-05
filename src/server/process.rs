@@ -5,9 +5,7 @@ use std::time::Duration;
 use std::vec;
 
 use rayon::prelude::*;
-
-use sysinfo::ProcessExt;
-use sysinfo::SystemExt;
+use sysinfo::{Process, System};
 
 use crate::logger;
 
